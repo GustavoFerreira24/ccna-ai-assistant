@@ -222,10 +222,13 @@ __marimo__/
 
 # CCNA AI Study Assistant
 
-# Private CCNA documents and generated vector indexes
-data/*
-!data/.gitkeep
+# Private CCNA study materials
+/data/documents/private/
 
-# Local environment variables and API keys
+# Generated vector database
+/data/chroma/
+
+# Local credentials
+.env
 .env.*
 !.env.example
