@@ -218,3 +218,14 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# CCNA AI Study Assistant
+
+# Private CCNA documents and generated vector indexes
+data/*
+!data/.gitkeep
+
+# Local environment variables and API keys
+.env.*
+!.env.example
